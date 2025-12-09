@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thermocheck</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city name..." />
+        <button id="searchBtn">🔍</button>
+      </div>
+
+      <div class="main-weather">
+        <h1 class="city-name">New York, NY</h1>
+        <p class="date">Today, March 12</p>
+        <div class="weather-icon">☀️</div>
+        <h2 class="temperature">72°</h2>
+        <p class="weather-description">Sunny</p>
+        <p class="description-detail">Perfect weather for outdoor activities</p>
+      </div>
+
+      <div class="weather-details">
+        <div class="detail-card">
+          <span class="detail-icon">🌡️</span>
+          <p class="detail-label">Feels Like</p>
+          <p class="detail-value">75°</p>
+        </div>
+        <div class="detail-card">
+          <span class="detail-icon">💧</span>
+          <p class="detail-label">Humidity</p>
+          <p class="detail-value">45%</p>
+        </div>
+        <div class="detail-card">
+          <span class="detail-icon">💨</span>
+          <p class="detail-label">Wind Speed</p>
+          <p class="detail-value">8 mph</p>
+        </div>
+        <div class="detail-card">
+          <span class="detail-icon">🌡️</span>
+          <p class="detail-label">Pressure</p>
+          <p class="detail-value">30.2"</p>
+        </div>
+      </div>
+
+      <h3 class="forecast-title">5-Day Forecast</h3>
+      <div class="forecast-container">
+        <div class="forecast-card">
+          <p class="forecast-day">Today</p>
+          <span class="forecast-icon">☀️</span>
+          <p class="forecast-temp">72°</p>
+          <p class="forecast-low">57°</p>
+        </div>
+        <div class="forecast-card">
+          <p class="forecast-day">Tomorrow</p>
+          <span class="forecast-icon">🌧️</span>
+          <p class="forecast-temp">68°</p>
+          <p class="forecast-low">53°</p>
+        </div>
+        <div class="forecast-card">
+          <p class="forecast-day">Wed</p>
+          <span class="forecast-icon">🌧️</span>
+          <p class="forecast-temp">64°</p>
+          <p class="forecast-low">51°</p>
+        </div>
+        <div class="forecast-card">
+          <p class="forecast-day">Thu</p>
+          <span class="forecast-icon">⛅</span>
+          <p class="forecast-temp">67°</p>
+          <p class="forecast-low">54°</p>
+        </div>
+        <div class="forecast-card">
+          <p class="forecast-day">Fri</p>
+          <span class="forecast-icon">☀️</span>
+          <p class="forecast-temp">71°</p>
+          <p class="forecast-low">56°</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
